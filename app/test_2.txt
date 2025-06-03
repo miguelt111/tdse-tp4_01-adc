@@ -1,0 +1,140 @@
+Open On-Chip Debugger 0.12.0+dev-00600-g090b431b1 (2024-09-13-19:14) [https://github.com/STMicroelectronics/OpenOCD]
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : STLINK V2J45M31 (API v2) VID:PID 0483:374B
+Info : Target voltage: 3.266974
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : clock speed 4000 kHz
+Info : stlink_dap_op_connect(connect)
+Info : SWD DPIDR 0x1ba01477
+Info : [STM32F103RBTx.cpu] Cortex-M3 r1p1 processor detected
+Info : [STM32F103RBTx.cpu] target has 6 breakpoints, 4 watchpoints
+Info : [STM32F103RBTx.cpu] Examination succeed
+Info : starting gdb server for STM32F103RBTx.cpu on 3333
+Info : Listening on port 3333 for gdb connections
+Info : accepting 'gdb' connection on tcp/3333
+Info : device id = 0x20036410
+Info : flash size = 128 KiB
+Warn : GDB connection 1 on target STM32F103RBTx.cpu not halted
+undefined debug reason 8 (UNDEFINED) - target needs reset
+Info : accepting 'gdb' connection on tcp/3333
+Warn : GDB connection 2 on target STM32F103RBTx.cpu not halted
+undefined debug reason 8 (UNDEFINED) - target needs reset
+[STM32F103RBTx.cpu] halted due to breakpoint, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08000640 msp: 0x20005000, semihosting
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+[STM32F103RBTx.cpu] halted due to breakpoint, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08000640 msp: 0x20005000, semihosting
+Test #2 starts
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1930
+1930
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1930
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1930
+1932
+1930
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+Test #2 ends. Ticks: 118
+Info : dropped 'gdb' connection
+shutdown command invoked
+Info : dropped 'gdb' connection
+
+Media geometrica (Geometric mean): 1930.9599848750563
+Desvio estandar (Standard Deviation): 0.24287836253956227
