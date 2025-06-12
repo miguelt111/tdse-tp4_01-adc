@@ -1,0 +1,119 @@
+Test #2 starts
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1930
+1930
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1930
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1930
+1932
+1930
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+1931
+Test #2 ends. Ticks: 118
+Info : dropped 'gdb' connection
+shutdown command invoked
+Info : dropped 'gdb' connection
+
+Media geometrica (Geometric mean): 1930.9599848750563
+Desvio estandar (Standard Deviation): 0.24287836253956227
+
+
+
+Test #2: Promedio de 16 lecturas
+- En cada iteración se hacen 16 lecturas del ADC.
+- Luego se calcula el promedio aritmético de esas 16 lecturas.
+- Se almacena una única muestra promediada por iteración.
+
+Análisis:
+- El promedio actúa como un filtro, eliminando gran parte del ruido.
+- Se estabiliza la señal y reduce la variación. Por eso el desvío estándar baja significativamente respecto al test #1.

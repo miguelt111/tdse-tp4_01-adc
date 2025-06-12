@@ -1,0 +1,35 @@
+Archivo: main.c
+
+Análisis de la configuración del ADC1 configurado:
+
+
+El ADC1 está configurado en la función `MX_ADC1_Init()` para tomar muestras desde el pin PA0, donde se conecta el potenciómetro.
+
+Principales configuraciones:
+
+- Canal: ADC\_CHANNEL\_0 (PA0)
+- Modo de conversion: manual 
+- Cantidad de canales: 1
+- Tiempo de muestreo: muy corto (1.5 ciclos), lo que puede generar ruido si la señal no es estable.
+- Alineación: derecha
+- Modo continuo: desactivado (se lee solo cuando se indica)
+
+El ADC está configurado para hacer una única conversión por llamada, manualmente, leyendo un valor por vez desde el potenciómetro. 
+Esta configuración es suficiente para los tests.
+
+----------------------------------
+
+Archivo: app.c
+
+Este archivo implementa las tres pruebas (Test #1, Test #2 y Test #3) que leen el valor analógico del pin PA0 (conectado al potenciómetro) 
+mediante el conversor ADC de la placa.
+
+Cada prueba adquiere 100 muestras utilizando diferentes métodos, y se evalúan los resultados mediante la media geométrica y el desvío estándar 
+para analizar la estabilidad de la señal.
+
+(se analiza cada test en su correspondiente archivo testn.txt)
+
+Conclusión:
+- El Test #2 es el que ofrece la mayor estabilidad en las mediciones.
+- El Test #3 permite liberar al procesador pero con una leve pérdida de precisión.
+- El Test #1 es el más sensible al ruido.

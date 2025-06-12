@@ -1,0 +1,118 @@
+Test #3 starts
+2058
+2058
+2056
+2058
+2056
+2056
+2058
+2058
+2057
+2060
+2056
+2058
+2057
+2056
+2058
+2056
+2058
+2056
+2056
+2056
+2058
+2056
+2056
+2057
+2058
+2056
+2057
+2056
+2056
+2056
+2058
+2056
+2057
+2057
+2056
+2057
+2056
+2056
+2057
+2058
+2056
+2060
+2058
+2058
+2056
+2056
+2057
+2056
+2058
+2060
+2056
+2058
+2056
+2057
+2060
+2056
+2058
+2056
+2056
+2058
+2056
+2058
+2056
+2056
+2057
+2056
+2056
+2058
+2056
+2058
+2056
+2054
+2056
+2056
+2056
+2057
+2057
+2057
+2058
+2058
+2056
+2058
+2056
+2058
+2056
+2056
+2057
+2057
+2056
+2058
+2058
+2056
+2057
+2056
+2058
+2060
+2056
+2058
+2058
+2056
+Test #3 ends. Ticks: 31
+
+Media geometrica (Geometric mean): 2056.9496822620977
+Desvio estandar (Standard Deviation): 1.1492202011394808
+
+
+
+Test #3: Conversión por interrupción (ADC_Start_IT)
+- Se configura el ADC para que realice las conversiones en modo interrupción.
+- Al finalizar cada conversión, se guarda automáticamente el valor leído.
+- Se almacenan 100 muestras sin bloquear la ejecución principal.
+
+Análisis:
+- Esta modalidad mejora la eficiencia porque el microprocesador puede hacer otras tareas mientras el ADC convierte.
+- Puede haber pequeñas variaciones entre muestras por latencias u otros factores.
+- La dispersión es intermedia: menor que en test #1 pero mayor que en test #2.
+- La diferencia en la media geométrica puede ser por una leve variación en la tensión del potenciómetro.
